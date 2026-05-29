@@ -53,9 +53,9 @@ public class Ejercicio1 {
             System.out.println("La persona reprobo");
         }
         
-        nota = 55;
+        nota = 95;
         //condicional donde validamos 3 o mas opciones
-        if (nota > 90){
+        if (nota > 90 && nota < 100){
             System.out.println("Nota Excelente");
         }else if (nota > 70){
             System.out.println("aprobo bien");
