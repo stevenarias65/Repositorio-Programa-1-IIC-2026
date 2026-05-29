@@ -75,7 +75,7 @@ public class Ejercicio1 {
         Scanner teclado = new Scanner(System.in);
         opcion = teclado.nextLine();
         switch (opcion){
-            case "1":
+            case "lunes":
                 System.out.println("El usuario esta ingresando");
                 break;
             case "2":
