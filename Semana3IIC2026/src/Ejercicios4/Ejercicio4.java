@@ -10,6 +10,9 @@ public class Ejercicio4 {
         //for(inicializador;condicion;contador)
         
         for (int i = 0; i < 5 ; i++) {
+            if ( i == 3) {
+                break;
+            }
             System.out.println(i);
         }
        
