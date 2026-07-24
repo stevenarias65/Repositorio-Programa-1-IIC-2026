@@ -1,0 +1,33 @@
+
+package Modelos;
+
+public class CuentaBancaria {
+    
+    private String titular; 
+    private String numeroCuenta;
+    private double saldo; 
+
+    public CuentaBancaria(String titular, String numeroCuenta, double saldo) {
+        this.titular = titular;
+        this.numeroCuenta = numeroCuenta;
+        this.saldo = saldo;
+    }
+
+    public String getTitular() {
+        return titular;
+    }
+
+    public String getNumeroCuenta() {
+        return numeroCuenta;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+    
+    
+    
+    
+    
+    
+}
